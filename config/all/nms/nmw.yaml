@@ -1,0 +1,6 @@
+run_type: 'nmw'
+settings:
+  skip_box_thr: 0.000000001
+  iou_thr: 0.5
+  weights: null
+

@@ -1,0 +1,14 @@
+name: "iou_aware_calibration"
+defaults:
+  - all@_global_: default_iou_aware_calibration
+  - _self_
+
+save_outputs: true
+variates: "first"
+calib_type: "Beta_cond"
+detector: "detector"
+seed: 123
+iou_threshold: 0.5
+split_size: 0.6
+splits: 10
+

@@ -1,0 +1,6 @@
+run_type: 'wbf'
+settings:
+  skip_box_thr: 0.001
+  iou_thr: 0.7
+  conf_type: 'avg'
+  weights: null

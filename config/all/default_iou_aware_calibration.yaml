@@ -1,0 +1,21 @@
+name: "iou_aware_calibration"
+defaults:
+  - _self_
+  - paths/annotations: coco_2017 # path to coco annotations
+  - paths/detections: default # paths to detections in coco format
+  - detections: default_all # file names of detections for each split
+  - nms: iou_stats
+  - settings@_global_: default
+
+
+detector: "detector"
+
+seed: 123
+iou_threshold: 0.5
+split: "val"
+save_outputs: false
+split_size: 0.6
+splits: 10
+variates: "first"
+
+

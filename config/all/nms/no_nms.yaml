@@ -1,0 +1,4 @@
+run_type: 'no_nms'
+settings:
+  iou_thr: 1.0
+  weights: null

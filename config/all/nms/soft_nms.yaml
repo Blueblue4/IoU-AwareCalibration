@@ -1,0 +1,6 @@
+run_type: 'soft_nms'
+settings:
+  iou_thr: 0.5
+#  thresh: 0.0001
+  sigma: 0.1
+  weights: null

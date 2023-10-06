@@ -1,0 +1,7 @@
+name: "sweep_nms"
+defaults:
+  - all@_global_: default_ensemble
+  - _self_
+
+split: "val"
+detector: "detector"

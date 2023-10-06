@@ -1,0 +1,4 @@
+run_type: 'iou_stats'
+settings:
+  iou_thr: 0.99
+  weights: null
