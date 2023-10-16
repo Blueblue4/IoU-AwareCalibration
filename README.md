@@ -1,7 +1,9 @@
 # IoU-Aware Confidence Calibration - Code
 
-> **Disclaimer:**
->This repository is for research purposes only. It is designed to reproduce the experiments described in [IoU-Aware Confidence Calibration](https://arxiv.org/pdf/2309.03110.pdf).
+> [!NOTE]
+>This repository is for research purposes only. It is designed to reproduce the experiments described in **"Do We Still Need Non-Maximum Suppression? Accurate Confidence Estimates and Implicit Duplication Modeling with IoU-Aware Calibration."**
+
+[![arxiv](https://img.shields.io/badge/arXiv-cs.CV:2309.03110-B31B1B.svg)](https://arxiv.org/abs/2309.03110)
 
 We show that we can eliminate classic NMS-style post-processing by using IoU-aware calibration. IoU-aware calibration is a conditional Beta calibration; this makes it parallelizable with no hyper-parameters. Instead of arbitrary cutoffs or discounts, it implicitly accounts for the likelihood of each detection being a duplicate and adjusts the confidence score accordingly, resulting in empirically based precision estimates for each detection. Our extensive experiments on diverse detection architectures show that the proposed IoU-aware calibration can successfully model duplicate detections and improve calibration. Compared to the standard sequential NMS and calibration approach, our joint modeling can deliver performance gains over the best NMS-based alternative while producing consistently better-calibrated confidence predictions with less complexity.
 ## Setup
